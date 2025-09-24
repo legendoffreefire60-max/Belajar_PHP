@@ -1,8 +1,9 @@
 <?php
-$Arya="85";
-$Wijaya="90";
+$Arya = "85";
+$Wijaya = "90";
 
-$Arya_Wijaya=$Arya.$Wijaya;
+// Menggabungkan dua string menggunakan operator titik (.)
+$Arya_Wijaya = $Arya . $Wijaya;
 
-echo$Arya_Wijaya;
+echo $Arya_Wijaya;
 ?>
