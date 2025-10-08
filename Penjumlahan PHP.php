@@ -15,9 +15,9 @@ $B = [
 
 $hasil = [];
 
-for ($i = 0; $i < count($A); $i++) {               // loop baris
-    for ($j = 0; $j < count($A[$i]); $j++) {       // loop kolom
-        $hasil[$i][$j] = $A[$i][$j] + $B[$i][$j];  // penjumlahan tiap elemen
+for ($i = 0; $i < count($A); $i++) {               
+    for ($j = 0; $j < count($A[$i]); $j++) {       
+        $hasil[$i][$j] = $A[$i][$j] + $B[$i][$j];  
     }
 }
 
